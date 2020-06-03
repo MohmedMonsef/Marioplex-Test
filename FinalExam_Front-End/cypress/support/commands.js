@@ -25,6 +25,7 @@
 // Cypress.Commands.overwrite("visit", (originalFn, url, options) => { ... })
 Cypress.Commands.add("login", index => {
   cy.fixture("Test").then(Data => {
+    cy.contains("Log In").click();
     cy.get('[testid="email input"]').type(Data[index].Email);
     cy.get('[testid="password input"]').type(Data[index].Password);
     cy.get('[testid="log in button"]').click();
