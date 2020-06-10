@@ -1,0 +1,26 @@
+{
+  "name": "AndroidTest",
+  "version": "1.0.0",
+  "description": "try",
+  "main": "login.js",
+  "private": true,
+  "dependencies": {
+    "wdio": "^4.0.0",
+    "webdriverio": "^6.1.16"
+  },
+  "devDependencies": {
+    "@wdio/cli": "^6.1.16",
+    "@wdio/local-runner": "^6.1.16",
+    "@wdio/mocha-framework": "^6.1.14",
+    "@wdio/spec-reporter": "^6.1.14",
+    "@wdio/sync": "^6.1.14",
+    "chromedriver": "^83.0.0",
+    "wdio-chromedriver-service": "^6.0.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
