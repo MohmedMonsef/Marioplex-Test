@@ -18,7 +18,7 @@ describe("Testing SignUn", () => {
 
   it("SignUp", () => {
     cy.visit(
-      "http://100.25.194.8/?fbclid=IwAR2l6qb7TeWJyDrXKokdPWWn-O_lKXQ7VkHGsgzT9h_JFM-m_iz_HYujlhw"
+      "http://54.197.150.175/"
     );
     cy.get('[id="menu-icon"]').click();
     cy.get('[testid="signup link"]').click();

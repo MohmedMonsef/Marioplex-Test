@@ -17,7 +17,7 @@ describe("Testing SignUn", () => {
   });
 
   it("SignUp-Haven't come Date => Accept.", () => {
-    cy.visit("http://100.25.194.8");
+    cy.visit("http://54.197.150.175/");
     cy.get('[id="menu-icon"]').click();
     cy.get('[testid="signup link"]').click();
     cy.get('[placeholder="Email"]').type(email);

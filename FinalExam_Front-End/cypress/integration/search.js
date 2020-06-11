@@ -18,7 +18,7 @@ describe("Test Search", () => {
   it("TopResult of an artist search | Follow,UN-Follow him", () => {
     var searching_substring = "artist";
 
-    cy.visit("http://100.25.194.8/");
+    cy.visit("http://54.197.150.175/");
     cy.get('[id="menu-icon"]').click();
     cy.get('[testid="login link"]').click();
     cy.get('[testid="email input"]').type(email);

@@ -3,7 +3,7 @@
 describe("WebPlayer side bar", () => {
   beforeEach(() => {
     cy.viewport("macbook-13");
-    cy.visit("http://localhost:8080/");
+    cy.visit("http://54.197.150.175/");
     cy.wait(1000);
     cy.contains("Log In").click();
     cy.login(2);

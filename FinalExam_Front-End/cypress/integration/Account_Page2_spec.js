@@ -3,7 +3,7 @@
 describe("Account Page ", () => {
   beforeEach(() => {
     cy.viewport("macbook-15");
-    cy.visit("http://100.25.194.8/");
+    cy.visit("http://54.197.150.175/");
     cy.login(2);
   });
   it("Recover Playlist table view has problem", () => {
